@@ -18,14 +18,14 @@ def main():
     ordered_count = sort_character(count)
 
     print("============ BOOKBOT ============")
-    print("Analyzing book found at books/frankenstein.txt...")
+    print(f"Analyzing book found at {filepath}...")
     print("----------- Word Count ----------")
     print(f"Found {num_words} total words")
     print("------- Character Count ---------")
     for item in ordered_count:
         print(f"{item['char']}: {item['num']}")
     print("============= END ===============")
-    
+
 
 
 
